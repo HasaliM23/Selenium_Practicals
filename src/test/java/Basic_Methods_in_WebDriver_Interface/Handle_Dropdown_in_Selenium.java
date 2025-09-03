@@ -27,7 +27,7 @@ public class Handle_Dropdown_in_Selenium {
         Select select = new Select(dropDown);
 
         select.selectByValue("level1");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         select.selectByVisibleText("51 - 100 employees");
         Thread.sleep(2000);
         select.selectByIndex(5);

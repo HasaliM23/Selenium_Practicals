@@ -46,9 +46,7 @@ public class Handle_Multiple_Dropdown_in_Selenium {
         // Get all selected options
         List<WebElement> selectedOptions = select.getAllSelectedOptions();
         System.out.println("Total selected: " + selectedOptions.size());
-        for (WebElement option : selectedOptions) {
-            System.out.println("Selected: " + option.getText());
-        }
+
 
         // Deselect one option
         select.deselectByVisibleText("Opel");
