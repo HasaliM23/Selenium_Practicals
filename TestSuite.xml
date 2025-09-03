@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name = "Test Suits">
+    <test name = "Test Cases">
+        <classes>
+            <class name = "XPath_Tutorials.Selenium_XPath_Tutorial_1"/>
+            <class name = "XPath_Tutorials.Selenium_XPath_Tutorial_2"/>
+            <class name = "XPath_Tutorials.Selenium_XPath_Tutorial_3"/>
+
+        </classes>
+    </test>
+</suite>
